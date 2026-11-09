@@ -6,7 +6,7 @@ A production-grade, multi-site enterprise network topology designed, configured,
 
 ## 📐 Network Topology
 
-![Multi-Site Network Topology](./diagrams/network_topology.jpg)
+![Multi-Site Network Topology](./diagrams/topology.png)
 
 The infrastructure represents a distributed enterprise deployment split across three core functional domains:
 1. **Headquarters (HQ Campus):** Access-Core hierarchy hosting end-user departments (Sales & Engineering).
