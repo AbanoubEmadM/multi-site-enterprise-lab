@@ -4,7 +4,7 @@ A production-grade, multi-site enterprise network topology designed, configured,
 
 ---
 
-## 📐 Network Topology
+## Network Topology
 
 ![Multi-Site Network Topology](./diagrams/topology.png)
 
@@ -15,7 +15,7 @@ The infrastructure represents a distributed enterprise deployment split across t
 
 ---
 
-## 📊 IP Addressing & VLAN Allocation Scheme
+## IP Addressing & VLAN Allocation Scheme
 
 The network utilizes a **VLSM (Variable Length Subnet Mask)** scheme based on the `172.16.0.0/16` private IP block for end hosts/servers and `10.255.0.0/30` subnets for point-to-point infrastructure links.
 
@@ -39,7 +39,7 @@ The network utilizes a **VLSM (Variable Length Subnet Mask)** scheme based on th
 
 ---
 
-## 🎯 Key Architectural Decisions ("The WHY")
+## Key Architectural Decisions ("The WHY")
 
 ### 1. Switched Virtual Interfaces (SVIs) for Core Routing
 * **Decision:** Inter-VLAN routing is performed locally at the distribution/core layer (`HQ-Core` and `DC-Core`) using SVIs rather than a Router-on-a-Stick setup.
@@ -70,7 +70,7 @@ The network utilizes a **VLSM (Variable Length Subnet Mask)** scheme based on th
 
 ---
 
-## 🧪 Verification & Path Validation
+## Verification & Path Validation
 
 ### 1. Control Plane Validation (`show ip route`)
 
@@ -129,7 +129,7 @@ Trace complete.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 multi-site-enterprise-lab/
@@ -154,7 +154,7 @@ multi-site-enterprise-lab/
 
 ---
 
-## 🚀 Deployment Instructions
+## Deployment Instructions
 
 1. **Clone the Repository:**
    ```bash
